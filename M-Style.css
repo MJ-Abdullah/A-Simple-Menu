@@ -1,0 +1,165 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background: url(Images/elsa-noblet-341687-1200x800.jpg);
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.main-menu-bar {
+    
+    background: #fce7fc;
+    text-align: left;
+    opacity: 0.9;
+    
+}
+
+.main-menu-bar ul{
+    
+    display: inline-flex;
+    list-style: none;
+    
+}
+
+.main-menu-bar ul li{
+    
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    
+    
+
+}.main-menu-bar ul li a{
+    
+    text-decoration: none;
+    color: black;
+    
+}
+
+.active{
+    
+    background: #bd4fde;
+    border-radius: 3px; 
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+}
+
+
+
+.main-menu-bar ul li:hover {
+   
+    background: #bd4fde;
+    border-radius: 3px;
+
+}
+
+.sub-menu-bar{
+    
+    display: none;
+    
+}
+
+
+.main-menu-bar ul li:hover .sub-menu-bar{
+    
+    display: block;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: -70px;
+    background: #fce7fc;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+    
+      
+}
+
+.main-menu-bar ul li:hover .sub-menu-bar ul{
+    
+    display: block;
+    margin: 10px;
+    
+}
+
+.main-menu-bar ul li:hover .sub-menu-bar ul li{
+    
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(0, 43, 185);
+    background: transparent;
+    border-radius: 0;
+    text-align: center;
+}
+
+.main-menu-bar ul li:hover .sub-menu-bar ul li:last-child{
+    
+    border-bottom: none;
+}
+
+.sub-menu-bar ul li a{
+    
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu-bar ul li:hover .sub-menu-bar ul li a:hover{
+    
+    color: rgb(0, 43, 185); 
+}
+
+
+.sub-menu-bar-2{
+    
+    display: none;
+    
+}
+
+.hover-me:hover .sub-menu-bar-2{
+    
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: #fce7fc;
+}
+
+.sub-menu-bar-3{
+    
+    display: none;
+    
+}
+
+
+.hover-me-2:hover .sub-menu-bar-3{
+    
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: #fce7fc;
+}
+
+.sub-menu-bar-4{
+    
+    display: none;
+}
+
+.hover-me-2 .sub-menu-bar-3 .hover-me-3:hover .sub-menu-bar-4{
+    
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 130px;
+    background: #fce7fc;
+}
+
